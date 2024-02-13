@@ -1,4 +1,4 @@
-# feature-requests
+# community
 
 We are excited to invite you to actively participate in shaping the future of our platform by sharing your valuable insights and feature ideas. Your feedback is crucial in helping us prioritize the development of new functionalities and enhance your experience on [exec.ninja](http://exec.ninja/).
 
