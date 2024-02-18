@@ -10,19 +10,21 @@ body:
     attributes:
       label: Feature Description
       description: "A clear and concise description of what the feature is and the value it would add to exec.ninja."
-      render: bash
+      placeholder: |
+        I'd like to suggest X to add to the exec.ninja. It will have following benefits:
+        1.
+        2.
+        3.
+        ...
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
   - type: textarea
     id: problem
     attributes:
       label: Problem it solves
       description: "Explain the problem you're facing without this feature. How does this affect your workflow or use of exec.ninja?"
+      placeholder: |
+        Without this suggestion, people have to do X to achieve Y which is causing problem Z.
     validations:
       required: true
   - type: textarea
@@ -43,13 +45,6 @@ body:
         - Release cadence
     validations:
       required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
   - type: markdown
     attributes:
       value: |
