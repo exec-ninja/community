@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        We really appreciate the effort you put into precisely describing your idea, as it will help us to evaluate it and implement etc...
+        Precise descriptions of your ideas enable us to thoroughly evaluate their potential and efficiently prioritise for their successful implementation.
   - type: textarea
     id: description
     attributes:
@@ -32,17 +32,6 @@ body:
     attributes:
       label: Additional context
       description: "Add any other context or screenshots about the feature request here."
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
     validations:
       required: true
   - type: markdown
