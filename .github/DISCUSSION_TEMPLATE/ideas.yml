@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: **Feature Description:**
+      label: Feature Description
       description: "A clear and concise description of what the feature is and the value it would add to exec.ninja."
       render: bash
     validations:
