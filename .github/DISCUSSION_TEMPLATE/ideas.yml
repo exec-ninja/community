@@ -18,11 +18,18 @@ body:
       value: |
         ## Markdown header
         And some more markdown
-  - type: input
-    id: has-id
+  - type: textarea
+    id: problem
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: Problem it solves
+      description: "Explain the problem you're facing without this feature. How does this affect your workflow or use of exec.ninja?"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Additional context
+      description: "Add any other context or screenshots about the feature request here."
     validations:
       required: true
   - type: dropdown
@@ -46,5 +53,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        ---
+        _Remember to search for duplicates before posting a new feature request. If an identical or similar request already exists, consider commenting there to show your support!_
