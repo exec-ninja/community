@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        We really appreciate the effort you put into precisely describing your idea, as it will help us to evaluate it and implement etc...
   - type: textarea
     id: description
     attributes:
